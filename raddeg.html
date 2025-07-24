@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rad vs Deg Game</title>
+
+  <!-- MathJax for π etc. -->
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./pages/index.css" />
+  <link rel="stylesheet" href="./styles/game.css" />
+</head>
+<body>
+  <div class="top-banner">
+    <a href="./index.html" class="dashboard-link">← Dashboard</a>
+  </div>
+
+  <div class="content-wrapper">
+    <h2>Radians ↔ Degrees</h2>
+
+    <img class="hero-image" src="./image/RadvDeg.svg" alt="Radians vs Degrees Illustration" />
+
+    <div id="highScore">Best 0</div>
+    <div id="score">Score 0</div>
+    <div id="timer">Time 15 s</div>
+    <div id="expr">Loading …</div>
+
+    <form id="answerForm">
+      <input id="ansInput" autocomplete="off" />
+      <button>Submit</button>
+    </form>
+  </div>
+
+  <!-- Game Over Screen (shared styling) -->
+  <div id="gameOverScreen" class="hidden">
+    <h2>Game Over</h2>
+    <p id="finalScore">Your score: 0</p>
+    <button id="restartBtn" class="primary-btn">Restart</button>
+  </div>
+
+  <script type="module" src="./dist/radDegDispatcher.js"></script>
+</body>
+</html> 

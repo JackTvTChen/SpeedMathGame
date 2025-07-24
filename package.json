@@ -1,0 +1,15 @@
+{
+  "name": "speed-math-game",
+  "version": "1.0.0",
+  "description": "A fast-paced math game to test your calculation speed",
+  "main": "index.html",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w & live-server"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "typescript": "^5.0.0"
+  }
+} 

@@ -1,0 +1,146 @@
+.level-calc-button {
+  background-color: #9c27b0;
+  color: white;
+  flex: 1;
+}
+
+.level-calc-button:hover {
+  background-color: #7b1fa2;
+}
+
+.test-status {
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.test-status.passed {
+  background-color: #dff0d8;
+  color: #3c763d;
+  border: 1px solid #d6e9c6;
+}
+
+.test-status.failed {
+  background-color: #f2dede;
+  color: #a94442;
+  border: 1px solid #ebccd1;
+}
+
+.level-calc-results {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  max-height: 500px;
+  overflow-y: auto;
+  margin-top: 15px;
+}
+
+.level-calc-results pre {
+  margin: 0;
+  white-space: pre-wrap;
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.level-test-section {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.level-test-section h2 {
+  margin-top: 0;
+}
+
+.level-test-section button {
+  margin: 10px 0;
+  padding: 8px 16px;
+  background-color: #4a6da7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.level-test-section button:hover {
+  background-color: #3a5a8f;
+}
+
+.level-ranges-reference {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #e8f4ff;
+  border-radius: 6px;
+  border-left: 4px solid #4a6da7;
+}
+
+.ranges-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.range-item {
+  padding: 8px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.level-test-results {
+  max-height: 400px;
+  overflow-y: auto;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  font-size: 14px;
+}
+
+.test-pass {
+  color: #1e8e3e;
+}
+
+.test-fail {
+  color: #d93025;
+  font-weight: bold;
+}
+
+.test-results h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.test-generator {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.distribution-test-results {
+  background-color: #f0f8ff;
+  border: 1px solid #4682b4;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.distribution-test-results h3 {
+  margin-top: 0;
+  color: #2c5282;
+}
+
+.distribution-test-results p {
+  margin: 5px 0;
+  font-family: monospace;
+  font-size: 14px;
+} 
