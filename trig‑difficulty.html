@@ -1,0 +1,73 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trig Difficulty Calculator</title>
+  <style>
+    body{font-family:sans-serif;padding:2rem;max-width:480px;margin:auto}
+    label{display:block;margin-bottom:1rem}
+    input,select,button{padding:0.5rem;font-size:1rem}
+    button{margin-top:1rem}
+    #result{margin-top:1.5rem;font-weight:bold}
+  </style>
+</head>
+<body>
+  <h1>Trig Difficulty Calculator</h1>
+
+  <label>
+    Operation:
+    <select id="op">
+      <option>sin</option>
+      <option>cos</option>
+      <option>tan</option>
+      <option>sec</option>
+      <option>csc</option>
+      <option>cot</option>
+    </select>
+  </label>
+
+  <label>
+    Angle (deg or rad): <input id="angle" placeholder="e.g. 30, -450, π/3, -5π/6">
+  </label>
+
+  <button id="compute">Compute Difficulty</button>
+
+  <p id="result"></p>
+
+  <script src="difficulty.js"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trig Practice Game</title>
+  <style>
+    body{font-family:sans-serif;margin:0 auto;max-width:500px;padding:2rem}
+    h1{margin-top:0;margin-bottom:1rem}
+    label,button,input,select{font-size:1rem}
+    #game{margin-top:1.5rem}
+    #question{font-size:1.25rem;font-weight:600;margin:1rem 0}
+    #feedback{margin-top:0.75rem;font-weight:600}
+  </style>
+</head>
+<body>
+  <h1>Trig Special‑Angle Practice</h1>
+
+  <label>Choose level:
+    <select id="levelSelect"></select>
+  </label>
+  <button id="startBtn">Start</button>
+
+  <div id="game" style="display:none;">
+    <p id="question"></p>
+    <input id="answerInput" placeholder="e.g. r3/2, -1, U" autocomplete="off">
+    <button id="submitBtn">Submit</button>
+    <p id="feedback"></p>
+  </div>
+
+  <script src="difficulty.js"></script>
+</body>
+</html>
